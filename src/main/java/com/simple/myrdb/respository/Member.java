@@ -11,6 +11,7 @@ public class Member {
     @Id
     @GeneratedValue
     private Long id;
+    private String username;
     private String nickname;
     private String email;
     private LocalDate birthday;
